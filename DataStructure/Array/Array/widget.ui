@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1100</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_DynamicArray">
+    <attribute name="title">
+     <string>动态数组</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_InitArray">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>270</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>初始化数组</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_SetValue">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>330</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置值</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_SetLength">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>390</y>
+       <width>101</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>设置长度</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Length">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>100</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Value">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>160</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>140</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;初始值/设置&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>80</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>数组长度</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widgetDynamicArrayShow" native="true">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>881</width>
+       <height>721</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(246, 255, 138);</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_Pos">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>220</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>950</x>
+       <y>200</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>位置</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_List">
+    <attribute name="title">
+     <string>单链表</string>
+    </attribute>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
